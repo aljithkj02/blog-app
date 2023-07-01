@@ -21,7 +21,7 @@ const Navbar = () => {
       w="100%"
       display="flex"
       justifyContent={"space-between"}
-      bg="#fafafa"
+      bg='white'
     >
       <Box>
         <Logo />

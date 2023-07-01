@@ -2,11 +2,11 @@ import { Heading, HStack } from "@chakra-ui/react";
 
 const Logo = () => {
     return (
-        <HStack >
-            <Heading as='b' color='#009cff'>
+        <HStack  >
+            <Heading fontWeight={400} color='#009cff'>
                 Blog
             </Heading>
-            <Heading as='b' color='black'>
+            <Heading fontWeight={400} color='black'>
                 App
             </Heading>
         </HStack>
